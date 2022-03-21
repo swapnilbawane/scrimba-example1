@@ -1,0 +1,60 @@
+// first example
+let firstName = "Swapnil";
+let lastName = "Bawane";
+
+let fullName = firstName + " " + lastName; 
+
+console.log(fullName); 
+
+// second example 
+let userName="Linda";
+let greeting="Hi there";
+
+function welcomeMessage (){
+    let messageToUser = greeting + "," + " " + userName + "!"; 
+    console.log(messageToUser);
+}
+
+welcomeMessage();
+
+// third example
+let myPoints = 3;
+
+function add3Points() {
+    myPoints += 3;
+}
+
+function remove1Point() {
+    myPoints-=1;
+}
+
+add3Points(); // 3+3 = 6 
+add3Points(); // 6+3 = 9
+add3Points(); // 9+3 = 12 
+remove1Point(); // 12-1 = 11
+remove1Point(); // 11-1 = 10 
+
+// print final points 
+console.log(myPoints);
+
+// fourth example 
+console.log("2" + 2) // "22"
+console.log(11 + 7) // 18 
+console.log(6 + "5") // "65"
+console.log("My points: " + 5 + 9) // "My points: 59"
+console.log(2 + 2) // 4
+console.log("11" + "14") // "1114" 
+
+//fifth example
+// When the user clicks the purchase button, render out
+// "Something went wrong, please try again" in the paragraph
+// that has the id="error".
+<button id="purchase-btn" onclick="errorMessage()">Purchase - $149</button>
+<p id="error"></p>
+
+let errorJs = document.getElementById("error");
+
+
+function errorMessage() {
+errorJs.textContent="Something went wrong, please try again";
+}
