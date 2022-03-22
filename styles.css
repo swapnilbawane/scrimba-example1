@@ -12,9 +12,9 @@
       hsl(45deg 100% 50%) 89%,
       hsl(55deg 100% 50%) 100%
     );
-      
+    border: 1px solid black; 
      width: 400px;
-     height: 150px;
+     height: 120px;
      color: white;
       padding: 10px 20px 20px 10px;
       font-size: 20px;
@@ -30,7 +30,7 @@
     }
     
     #second-part {
-      background-image: linear-gradient(
+      /* background-image: linear-gradient(
       0deg,
       hsl(293deg 45% 61%) 0%,
       hsl(293deg 45% 61%) 18%,
@@ -39,13 +39,15 @@
       hsl(295deg 31% 73%) 55%,
       hsl(300deg 17% 84%) 75%,
       hsl(300deg 4% 95%) 100%
-    );
+    ); */
+    background-color: white;
+    border: 1px solid black;
       width: 400px;
-     height: 150px;
+     height: 200px;
      color: white;
       padding: 10px 20px 20px 10px;
       font-size: 15px;
-      font-weight: bold;
+      
       margin: auto;
       text-align: center;
     }
@@ -61,3 +63,9 @@
     #mass-result {
       color: black;
     } 
+
+    .headers 
+    {
+      font-weight: bold;
+      color: black;
+    }
